@@ -1,2 +1,13 @@
 # framework
-Code for the Unity package for the dissertation "Flexible Framework to Model Industry 4.0 Tasks for Process-Oriented Virtual Simulators Involving Automation and Smart Robots"
+Code of the Unity package for the dissertation "Flexible Framework to Model Industry 4.0 Tasks for Process-Oriented Virtual Simulators Involving Automation and Smart Robots".
+By Kiara A. Ottogalli F.
+
+The advent of Industry 4.0 (I4.0) has made the industry to redefine its processes to include new technologies with the purpose of improving its production and therefore become more efficient and economically competitive. This inclusion has the drawback of making the processes more complex for the workers and the industry. One strategy to manage this growing complexity is to create simulation models to help with the decision-making a priori, i.e. before the physical system is available. In particular, virtual simulations can help multidisciplinary teams to share their expertise regarding the production processes, which is beneficial for increasing productivity and identifying issues beforehand, thus, preventing unexpected costs. However, the development of immersive simulators oriented to the industry can be difficult as it must consider many different situations, actors, and workflows as close to the physical systems as possible. As the project evolves, the development can even become unmanageable without proper engineering tools.
+
+For this reason, a new framework to model industrial processes that involve I4.0 features was developed. This framework is flexible enough to be adapted to different industrial domains, such as energy, manufacturing, or aerospace, for several purposes that include prototyping, design, process engineering, or decision-making. It is prepared for multiple I4.0 technologies including Virtual Reality (VR), Augmented Reality (AR), Human-Robot Collaboration (HRC), Motion Capture (MoCap), Digital Twin (DT), and Reinforcement Learning (RL), without losing generality. The framework supports the interaction among multiple actors, such as humans and automated devices. It also considers different types of tasks to model processes, including assembly, disassembly, and logistics. It comprises two modules, the process definition and the simulator with an embedded process controller, which communicate through an interface.
+
+This package is based on this framework and allows to model industry 4.0 processes for Unity simulations.
+
+More information about the framework on the paper:
+Ottogalli, K., Rosquete, D., Amundarain, A., Aguinaga, I., and Borro, D., "Flexible Framework to Model Industry 4.0 Processes for Virtual Simulators", Appl. Sci. 2019, Vol. 9, Page 4983, vol. 9, no. 23, p. 4983, November. 2019.
+https://www.mdpi.com/2076-3417/9/23/4983
